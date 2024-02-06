@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    cursor: none;
+   
+}
+.imj{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -12;
+}
+#j{
+    
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+.c{
+   
+    background-color: white;
+    opacity: 89%;
+    z-index: 1200;
+    position: fixed;
+    border-radius: 100%;
+    /* transition: all 0s; */
+    position: relative;
+    display: none;
+    animation-name: tyu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.p{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border: 1px solid whitesmoke;
+    background-color: black;
+}
+.bp{
+    width:20%;
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 80%;
+    font-weight: bolder;
+    color:rgb(19, 0, 29);
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes tyu {
+    0%{
+       box-shadow: 0px 0px 20px 5px rgb(143, 9, 9);
+    }
+    25%{
+       box-shadow: 0px 0px 20px 10px rgb(65, 141, 255);
+
+    }
+    50%{
+       box-shadow: 0px 0px 20px 10px greenyellow;
+       
+    }
+    75%{
+       box-shadow: 0px 0px 20px 10px rgb(234, 16, 71);
+
+    }
+    100%{
+       box-shadow: 0px 0px 20px 10px rgb(12, 255, 190);
+
+    }
+}
+.q{
+    width: 220px;
+    height: 250px;
+    transform: none;
+    overflow: hidden;
+    
+    position:absolute;
+}
+
+.imgh{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    transform: translateY(100%);
+    animation-name: you;
+    animation-duration:4.6s;
+}
+@keyframes you {
+    0%{
+        transform: translateY(100%);
+    }
+    
+    50%{
+        transform: translateY(0%);
+
+
+
+    }
+    100%{
+        transform: translateY(100%);
+    }
+    
+}
+.box{
+    position: absolute;
+    border-radius: 100%;
+}
+.hoo{
+    
+    background-color: black;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px solid white;
+
+}
